@@ -5,4 +5,4 @@ sudo apt-add-repository -y ppa:ansible/ansible
 sudo apt-get update && sudo apt-get install -y ansible
 sudo pip install pywinrm
 sudo apt-get install python-dnspython
-ansible-galaxy install geerlingguy.jenkins geerlingguy.java
+sudo ansible-galaxy install geerlingguy.jenkins geerlingguy.java
