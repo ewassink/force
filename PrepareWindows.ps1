@@ -3,7 +3,7 @@
 # It calls other scripts that prepares Windows and makes it ready for Ansible
 #
 # When run by hand on a new windows machine, use the following commands:
-#   wget -Outfile PrepareWindows.ps1 https://git.rabobank.nl/projects/FPXI/repos/azure-windows-ansible/raw/PrepareWindows.ps1
+#   wget -Outfile PrepareWindows.ps1 https://raw.githubusercontent.com/ewassink/force/master/PrepareWindows.ps1
 #   Set-ExecutionPolicy Bypass -Scope Process -Force; .\PrepareWindows.ps1
 
 cd \windows\temp
