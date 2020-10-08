@@ -9,9 +9,9 @@
 cd \windows\temp
 
 # Enable WinRM
-wget -Outfile ConfigureRemotingForAnsible.ps1 https://git.rabobank.nl/projects/FPXI/repos/azure-windows-ansible/raw/ConfigureRemotingForAnsible.ps1
+wget -Outfile ConfigureRemotingForAnsible.ps1 https://github.com/ewassink/force/blob/master/raw/ConfigureRemotingForAnsible.ps1
 .\ConfigureRemotingForAnsible.ps1 2>&1 >> PrepareWindows.log
 
 # Install Chocolatey package manager
-wget -Outfile InstallChocolatey.ps1 https://git.rabobank.nl/projects/FPXI/repos/azure-windows-ansible/raw/InstallChocolatey.ps1
+wget -Outfile InstallChocolatey.ps1  https://github.com/ewassink/force/blob/master/raw/InstallChocolatey.ps1
 .\InstallChocolatey.ps1 2>&1 >> PrepareWindows.log
